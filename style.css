@@ -76,22 +76,22 @@ section {
 }
 
 button {
-    border-radius: 10px;
-    width: 15vw;
-    height: 5vw;
-    position: absolute;
-    left: 45%;
-    top: 25%;
-    text-decoration: none;
-    background: #92004e;
-    color: #ffffff;
-    cursor: pointer;
-    text-align: center;
-    transition: background 400ms ease-in,
-                box-shadow 400ms ease-in;
+  border-radius: 10px;
+  width: 15vw;
+  height: 5vw;
+  position: absolute;
+  left: 45%;
+  top: 25%;
+  text-decoration: none;
+  background: #92004e;
+  color: #ffffff;
+  cursor: pointer;
+  text-align: center;
+  transition: background 400ms ease-in,
+              box-shadow 400ms ease-in;
 }
 
 button:hover {
-    background: #50233b;
-    box-shadow: 0 0 10px 2px hsla(55, 100%, 50%, .6);
-  }
+  background: #50233b;
+  box-shadow: 0 0 10px 2px hsla(55, 100%, 50%, .6);
+}
