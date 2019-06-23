@@ -12,6 +12,11 @@ body {
 
 section {
   height: 80vh;
+  position: relative;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  overflow: hidden;
 }
 
 .section__header {
@@ -22,10 +27,7 @@ section {
 .first {
   color: rgba(255, 255, 255, 0.3);
   background: #50233B;
-  position: relative;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
+  overflow: visible;
 }
 
 .first::before {
@@ -44,11 +46,6 @@ section {
 .second {
   color: rgba(255, 255, 255, 0.3);
   background: #FF9D00;
-  position: relative;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  overflow: hidden;
 }
 
 .second__image {
@@ -68,11 +65,6 @@ section {
 .third {
   color: rgba(255, 255, 255, 0.3);
   background: #8EA700;
-  position: relative;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  overflow: hidden;
 }
 
 button {
@@ -101,9 +93,4 @@ button:hover {
 .fourth {
   color: rgba(255, 255, 255, 0.3);
   background: #004a84;
-  position: relative;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  overflow: hidden;
 }
