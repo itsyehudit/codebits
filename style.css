@@ -67,7 +67,7 @@ section {
   background: #8EA700;
 }
 
-button {
+.third__button {
   border: none;
   border-radius: 10px;
   width: 15vw;
@@ -85,7 +85,7 @@ button {
               box-shadow 400ms ease-in;
 }
 
-button:hover {
+.third__button:hover {
   background: #50233b;
   box-shadow: 0 0 10px 2px hsla(55, 100%, 50%, .6);
 }
