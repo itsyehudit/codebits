@@ -117,16 +117,17 @@ section {
   border-radius: 10%;
   width: 20px;
   height: 5px;
-  left: 15px;
-  top: 30px;
+  top: 29px;
 }
 
 .go-to-top__button::before {
-  transform: rotate(55deg);
+  transform: rotate(45deg);
   transform-origin: right center;
+  left: 18px;
 }
 
 .go-to-top__button::after {
-  transform: rotate(-55deg);
+  transform: rotate(-45deg);
   transform-origin: left center;
+  left: 13px;
 }
