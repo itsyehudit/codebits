@@ -100,6 +100,26 @@ section {
   background: repeating-linear-gradient(120deg, #004a84 0%, #004a84 5%, #00467b 5%, #00467b 10%);
 }
 
+.fourth__goodbye-message {
+  color: white;
+  position: absolute;
+  left: 35%;
+  top: 25%;
+  padding: 3vw 4.5vw;
+  border: 13px solid #00467b;
+  background-color: rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.fourth__goodbye-message h1 {
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.fourth__goodbye-message p {
+  font-size: 20px;
+}
+
 .go-to-top__button {
   border-radius: 50%;
   width: 50px;
