@@ -97,7 +97,7 @@ section {
 
 .fourth {
   color: rgba(255, 255, 255, 0.3);
-  background: #004a84;
+  background: repeating-linear-gradient(120deg, #004a84 0%, #004a84 5%, #00467b 5%, #00467b 10%);
 }
 
 .go-to-top__button {
