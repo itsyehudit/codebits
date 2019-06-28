@@ -88,13 +88,13 @@ section {
   color: #ffffff;
   cursor: pointer;
   text-align: center;
-  transition: background 400ms ease-in,
-              box-shadow 400ms ease-in;
+  transition: background 200ms ease-in,
+              box-shadow 200ms ease-in;
 }
 
 .third__button:hover {
   background: #50233b;
-  box-shadow: 0 0 10px 2px hsla(55, 100%, 50%, .6);
+  box-shadow: 0px 11px 25px 0px rgba(58, 68, 0, 0.5);
 }
 
 .fourth {
