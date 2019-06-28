@@ -79,8 +79,9 @@ section {
   width: 15vw;
   height: 5vw;
   position: absolute;
-  left: 45%;
-  top: 25%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
   text-decoration: none;
   font: small-caps 800 30px 'Quicksand';
   background: #92004e;
