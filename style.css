@@ -15,6 +15,7 @@ body {
 }
 
 .main__header {
+  position: relative;
   display: inline-block;
   width: 100%;
   height: auto;
@@ -35,6 +36,13 @@ span {
                 0px 27px 18px rgba(28, 28, 28, 0.05),
                 0px 20px 39.99px rgba(28, 28, 28, 0.06),
                 0px 53px 48.96px rgba(28, 28, 28, 0.10);
+}
+
+sup {
+  font-size: 11vh;
+  position: absolute;
+  top: 18vh;
+  right: 32vh;
 }
 
 .gallery__container {
