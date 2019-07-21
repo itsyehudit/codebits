@@ -61,5 +61,12 @@ sup {
   background-color: white;
   box-shadow: -15px 15px 31px -9px rgba(153, 153, 153, 0.20),
               -5px 20px 43px -14px rgba(153, 153, 153, 0.30),
-              -7px 1px 11px -7px rgba(153, 153, 153, 0.30)
+              -7px 1px 11px -7px rgba(153, 153, 153, 0.30);
+}
+
+.gallery__element:hover {
+  transform: scale(1.1) rotate(-.5deg);
+  box-shadow: -25px 8px 29px 10px rgba(153, 153, 153, 0.10),
+              2px 22px 25px -12px rgba(153, 153, 153, 0.20),
+              -7px 1px 12px -8px rgba(153, 153, 153, 0.20);
 }
