@@ -45,6 +45,12 @@ sup {
   right: 32vh;
 }
 
+a {
+  font-size: 22px;
+  text-decoration: none;
+  color: rgb(73, 2, 66);
+}
+
 .gallery__container {
   display: flex;
   justify-content: center;
@@ -55,10 +61,14 @@ sup {
 }
 
 .gallery__element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 13vw;
   height: 20vh;
   margin: 35px 20px;
   background-color: white;
+  font-weight: 700;
   box-shadow: -15px 15px 31px -9px rgba(153, 153, 153, 0.20),
               -5px 20px 43px -14px rgba(153, 153, 153, 0.30),
               -7px 1px 11px -7px rgba(153, 153, 153, 0.30);
