@@ -164,3 +164,11 @@ section {
   height: 100vh;
   position: relative;
 }
+
+.backgrounds__header {
+  padding: 10vh;
+  text-align: center;
+  font-size: 15vh;
+  font-weight: 700;
+  color: #eee;
+}
