@@ -184,3 +184,12 @@ section {
   background-size: 500px 500px;
   background-position: 0 0, 250px 250px;
 }
+
+.backgrounds__third {
+  background: linear-gradient(135deg, rgba(255, 207, 0, 0.2) 25%, transparent 25%) -250px 0,
+              linear-gradient(225deg, rgba(255, 207, 0, 0.2) 25%, transparent 25%) -250px 0,
+              linear-gradient(315deg, rgba(255, 207, 0, 0.2) 25%, transparent 25%),
+              linear-gradient(45deg, rgba(255, 207, 0, 0.2) 25%, transparent 25%);
+  background-size: 500px 500px;
+  background-color: #FF9D00;
+}
