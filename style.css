@@ -193,3 +193,15 @@ section {
   background-size: 500px 500px;
   background-color: #FF9D00;
 }
+
+.backgrounds__fourth {
+  background-color:#f1f1f1;
+  background: linear-gradient(30deg, #efecec 12%, transparent 12.5%, transparent 87%, #efecec 87.5%, #efecec),
+              linear-gradient(150deg, #efecec 12%, transparent 12.5%, transparent 87%, #efecec 87.5%, #efecec),
+              linear-gradient(30deg, #efecec 12%, transparent 12.5%, transparent 87%, #efecec 87.5%, #efecec),
+              linear-gradient(150deg, #efecec 12%, transparent 12.5%, transparent 87%, #efecec 87.5%, #efecec),
+              linear-gradient(60deg, #fafafa 25%, transparent 25.5%, transparent 75%, #fafafa 75%, #fafafa),
+              linear-gradient(60deg, #fafafa 25%, transparent 25.5%, transparent 75%, #fafafa 75%, #fafafa);
+  background-size: 640px 1120px;
+  background-position: 0 0, 0 0, 320px 560px, 320px 560px, 0 0, 320px 560px;
+}
