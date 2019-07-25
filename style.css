@@ -172,3 +172,7 @@ section {
   font-weight: 700;
   color: #eee;
 }
+
+.backgrounds__first {
+  background: repeating-linear-gradient(120deg, #004a84 0%, #004a84 5%, #00467b 5%, #00467b 10%);
+}
