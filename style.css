@@ -174,23 +174,23 @@ section {
 }
 
 .backgrounds__first {
-  background: repeating-linear-gradient(120deg, #004a84 0%, #004a84 5%, #00467b 5%, #00467b 10%);
+  background-image: repeating-linear-gradient(120deg, #004a84 0%, #004a84 5%, #00467b 5%, #00467b 10%);
 }
 
 .backgrounds__second {
   background-color: #50233B;
   background-image: radial-gradient(rgba(0, 0, 0, 0.05) 20%, transparent 0),
                     radial-gradient(rgba(0, 0, 0, 0.05) 30%, transparent 0);
-  background-size: 500px 500px;
-  background-position: 0 0, 250px 250px;
+  background-size: 24vh 24vh;
+  background-position: 0 0, 12vh 12vh;
 }
 
 .backgrounds__third {
-  background-image: linear-gradient(135deg, rgba(255, 207, 0, 0.2) 25%, transparent 25%) -250px 0,
-                    linear-gradient(225deg, rgba(255, 207, 0, 0.2) 25%, transparent 25%) -250px 0,
+  background-image: linear-gradient(135deg, rgba(255, 207, 0, 0.2) 25%, transparent 25%) -12vh 0,
+                    linear-gradient(225deg, rgba(255, 207, 0, 0.2) 25%, transparent 25%) -12vh 0,
                     linear-gradient(315deg, rgba(255, 207, 0, 0.2) 25%, transparent 25%),
                     linear-gradient(45deg, rgba(255, 207, 0, 0.2) 25%, transparent 25%);
-  background-size: 500px 500px;
+  background-size: 24vh 24vh;
   background-color: #FF9D00;
 }
 
@@ -202,8 +202,8 @@ section {
                     linear-gradient(150deg, #efecec 12%, transparent 12.5%, transparent 87%, #efecec 87.5%, #efecec),
                     linear-gradient(60deg, #fafafa 25%, transparent 25.5%, transparent 75%, #fafafa 75%, #fafafa),
                     linear-gradient(60deg, #fafafa 25%, transparent 25.5%, transparent 75%, #fafafa 75%, #fafafa);
-  background-size: 640px 1120px;
-  background-position: 0 0, 0 0, 320px 560px, 320px 560px, 0 0, 320px 560px;
+  background-size: 16vh 28vh;
+  background-position: 0 0, 0 0, 8vh 14vh, 8vh 14vh, 0 0, 8vh 14vh;
 }
 
 .backgrounds__fifth {
