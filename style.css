@@ -27,7 +27,7 @@ body {
   color: #eee;
 }
 
-span {
+.main__header-title {
   font-family: 'Catamaran';
   font-size: 30vh;
   color: #FFFFFF;
