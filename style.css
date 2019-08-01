@@ -160,7 +160,7 @@ section {
   left: 13px;
 }
 
-section {
+.backgrounds__section {
   height: 110vh;
   position: relative;
 }
