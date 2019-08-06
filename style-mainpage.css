@@ -1,0 +1,68 @@
+.main__header {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  padding: 40px;
+  font-size: 18vh;
+  font-weight: bold;
+  line-height: 18vh;
+  text-align: center;
+  color: #eee;
+}
+
+.main__header-title {
+  font-family: 'Catamaran';
+  font-size: 30vh;
+  color: #FFFFFF;
+  text-shadow: -12px 6px 51px rgba(28, 28, 28, 0.06),
+                0px 8px 13px rgba(28, 28, 28, 0.17),
+                0px 27px 18px rgba(28, 28, 28, 0.05),
+                0px 20px 39.99px rgba(28, 28, 28, 0.06),
+                0px 53px 48.96px rgba(28, 28, 28, 0.10);
+}
+
+sup {
+  font-size: 11vh;
+  position: absolute;
+  top: 18vh;
+  right: 32vh;
+}
+
+a {
+  font-size: 22px;
+  text-decoration: none;
+  color: rgb(73, 2, 66);
+}
+
+.gallery__container {
+  display: flex;
+  justify-content: center;
+  align-content: start;
+  flex-wrap: wrap;
+  width: 55vw;
+  margin: 0 auto;
+}
+
+.gallery__element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 13vw;
+  height: 20vh;
+  margin: 35px 20px;
+  background-color: white;
+  font-weight: 700;
+  box-shadow: -15px 15px 31px -9px rgba(153, 153, 153, 0.20),
+              -5px 20px 43px -14px rgba(153, 153, 153, 0.30),
+              -7px 1px 11px -7px rgba(153, 153, 153, 0.30);
+  transition: box-shadow 50ms ease-in,
+              transform 50ms ease-in;
+}
+
+.gallery__element:hover {
+  transform: scale(1.1) rotate(-.5deg);
+  box-shadow: -25px 8px 29px 10px rgba(153, 153, 153, 0.10),
+              2px 22px 25px -12px rgba(153, 153, 153, 0.20),
+              -7px 1px 12px -8px rgba(153, 153, 153, 0.20);
+}
