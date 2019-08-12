@@ -27,9 +27,8 @@
   visibility: hidden;
   opacity: 0;
   background-color: #50233B;
-  transition: opacity 150ms ease-in-out,
-              visibility 150ms ease-in-out,
-              transform 180ms ease-in-out;
+  transition: transform 100ms ease-in-out,
+              visibility 100ms ease-in-out;
 }
 
 .tooltip::before {
@@ -53,11 +52,6 @@
   z-index: 1;
 }
 
-.tooltip:hover::before, .tooltip:hover::after {
-  opacity: 1;
-  visibility: visible;
-}
-
 .tooltip__top::before {
   top: -4em;
   left: 50%;
@@ -76,4 +70,9 @@
 
 .tooltip__top:hover::after {
   transform: translateX(-50%) translateY(0em) rotate(45deg);
+}
+
+.tooltip:hover::before, .tooltip:hover::after {
+  opacity: 1;
+  visibility: visible;
 }
