@@ -89,7 +89,7 @@
    transform: translateX(-12em);
  }
 
-.tooltip__left:hover::after {
+ .tooltip__left:hover::after {
    transform: translateX(-5.8em) translateY(0.5em) rotate(45deg);
  }
 
@@ -107,4 +107,24 @@
 
 .tooltip__right:hover::after {
   transform: translateX(1.1em) translateY(0.5em) rotate(45deg);
+}
+
+.tooltip__bottom::before {
+  top: 4em;
+  left: 50%;
+  transform: translateX(-50%) translateY(1em);
+}
+
+.tooltip__bottom::after {
+  left: 50%;
+  top: 1.7em;
+  transform: translateX(-50%) translateY(2em) rotate(45deg);
+}
+
+.tooltip__bottom:hover::before {
+    transform: translateX(-50%) translateY(0em);
+}
+
+.tooltip__bottom:hover::after {
+  transform: translateX(-50%) translateY(1em) rotate(45deg);
 }
