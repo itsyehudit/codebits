@@ -65,7 +65,7 @@
 }
 
 .tooltip__top:hover::before {
-    transform: translateX(-50%) translateY(0em);
+  transform: translateX(-50%) translateY(0em);
 }
 
 .tooltip__top:hover::after {
@@ -77,21 +77,21 @@
   visibility: visible;
 }
 
- .tooltip__left::before {
-   transform: translateX(-15em);
- }
+.tooltip__left::before {
+  transform: translateX(-15em);
+}
 
- .tooltip__left::after {
-   transform: translateX(-8.4em) translateY(0.5em) rotate(45deg);
- }
+.tooltip__left::after {
+  transform: translateX(-8.4em) translateY(0.5em) rotate(45deg);
+}
 
- .tooltip__left:hover::before {
-   transform: translateX(-12em);
- }
+.tooltip__left:hover::before {
+  transform: translateX(-12em);
+}
 
- .tooltip__left:hover::after {
-   transform: translateX(-5.8em) translateY(0.5em) rotate(45deg);
- }
+.tooltip__left:hover::after {
+  transform: translateX(-5.8em) translateY(0.5em) rotate(45deg);
+}
 
 .tooltip__right::before {
   transform: translateX(15em);
