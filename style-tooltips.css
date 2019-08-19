@@ -27,8 +27,7 @@
   visibility: hidden;
   opacity: 0;
   background-color: #50233B;
-  transition: transform 100ms ease-in-out,
-              visibility 100ms ease-in-out;
+  transition: transform 100ms ease-in-out;
 }
 
 .tooltip::before {
