@@ -78,11 +78,11 @@
 }
 
  .tooltip__left::before {
-   transform: translateX(-17em);
+   transform: translateX(-15em);
  }
 
  .tooltip__left::after {
-   transform: translateX(-9.8em) translateY(0.5em) rotate(45deg);
+   transform: translateX(-8.4em) translateY(0.5em) rotate(45deg);
  }
 
  .tooltip__left:hover::before {
@@ -94,11 +94,11 @@
  }
 
 .tooltip__right::before {
-  transform: translateX(17em);
+  transform: translateX(15em);
 }
 
 .tooltip__right::after {
-  transform: translateX(5.1em) translateY(0.5em) rotate(45deg);
+  transform: translateX(3.6em) translateY(0.5em) rotate(45deg);
 }
 
 .tooltip__right:hover::before {
@@ -106,7 +106,7 @@
 }
 
 .tooltip__right:hover::after {
-  transform: translateX(1.1em) translateY(0.5em) rotate(45deg);
+  transform: translateX(1.05em) translateY(0.5em) rotate(45deg);
 }
 
 .tooltip__bottom::before {
