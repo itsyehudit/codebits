@@ -76,3 +76,19 @@
   opacity: 1;
   visibility: visible;
 }
+
+ .tooltip__left::before {
+   transform: translateX(-17em);
+ }
+
+ .tooltip__left::after {
+   transform: translateX(-9.8em) translateY(0.5em) rotate(45deg);
+ }
+
+ .tooltip__left:hover::before {
+   transform: translateX(-12em);
+ }
+
+ .tooltip__left:hover::after {
+   transform: translateX(-5.8em) translateY(0.5em) rotate(45deg);
+ }
