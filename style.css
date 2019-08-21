@@ -9,153 +9,76 @@ html {
 }
 
 body {
-  font-size: 17vh;
   margin: 0;
   position: relative;
   font-family: Quicksand;
 }
 
-section {
-  height: 80vh;
+.main__header {
   position: relative;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  overflow: hidden;
-}
-
-.section__header {
-  position: relative;
-  bottom: -8vh;
-}
-
-.first {
-  color: rgba(255, 255, 255, 0.3);
-  background: #50233B;
-  overflow: visible;
-}
-
-.first::before {
-  content: '';
-  position: absolute;
-  width: 12vh;
-  height: 12vh;
-  border-radius: 5%;
-  background: #50233B;
-  left: 10vh;
-  bottom: -5vh;
-  transform: rotate(45deg);
-  z-index: 1;
-}
-
-.second {
-  color: rgba(255, 255, 255, 0.3);
-  background: #FF9D00;
-}
-
-.second__image {
-  height: 40%;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
-  filter: blur(10px);
-  transition: filter 500ms;
-}
-
-.second__image:hover {
-  filter: blur(0px)
-}
-
-.third {
-  color: rgba(255, 255, 255, 0.3);
-  background: #8EA700;
-}
-
-.third__button {
-  border: none;
-  border-radius: 10px;
-  width: 15vw;
-  height: 5vw;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  text-decoration: none;
-  font: small-caps 800 30px 'Quicksand';
-  background: #92004e;
-  color: #ffffff;
-  cursor: pointer;
-  text-align: center;
-  transition: background 200ms ease-in,
-              box-shadow 200ms ease-in;
-}
-
-.third__button:hover {
-  background: #50233b;
-  box-shadow: 0px 11px 25px 0px rgba(58, 68, 0, 0.5);
-}
-
-.fourth {
-  color: rgba(255, 255, 255, 0.3);
-  background: repeating-linear-gradient(120deg, #004a84 0%, #004a84 5%, #00467b 5%, #00467b 10%);
-}
-
-.fourth__goodbye-message {
-  color: white;
-  position: absolute;
+  display: inline-block;
   width: 100%;
-  top: 15%;
-  padding: 2vw 2.5vw;
-  border-width: 5px 0 5px 0;
-  border-style: double;
-  border-color: #fff;
-  background-color: rgba(0, 0, 0, 0.4);
-  box-shadow: 0px 35px 78px 16px rgba(35, 35, 35, 0.50),
-              0px 3px 5px 1px #454545;
+  height: auto;
+  padding: 40px;
+  font-size: 18vh;
+  font-weight: bold;
+  line-height: 18vh;
   text-align: center;
+  color: #eee;
 }
 
-.fourth__goodbye-message h1 {
-  font-size: 45px;
-  font-weight: 800;
-  margin: 0 0 1% 0;
+.main__header-title {
+  font-family: 'Catamaran';
+  font-size: 30vh;
+  color: #FFFFFF;
+  text-shadow: -12px 6px 51px rgba(28, 28, 28, 0.06),
+                0px 8px 13px rgba(28, 28, 28, 0.17),
+                0px 27px 18px rgba(28, 28, 28, 0.05),
+                0px 20px 39.99px rgba(28, 28, 28, 0.06),
+                0px 53px 48.96px rgba(28, 28, 28, 0.10);
 }
 
-.fourth__goodbye-message p {
-  font-size: 20px;
-  font-style: italic;
-}
-
-.go-to-top__button {
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
+sup {
+  font-size: 11vh;
   position: absolute;
-  left: 50px;
-  bottom: 50px;
-  background-color: rgba(255, 255, 255, 0.5);
+  top: 18vh;
+  right: 32vh;
 }
 
-.go-to-top__button::after, .go-to-top__button::before {
-  content: '';
-  position: absolute;
-  background-color: #012d50;
-  border-radius: 10%;
-  width: 20px;
-  height: 5px;
-  top: 29px;
+a {
+  font-size: 22px;
+  text-decoration: none;
+  color: rgb(73, 2, 66);
 }
 
-.go-to-top__button::before {
-  transform: rotate(45deg);
-  transform-origin: right center;
-  left: 18px;
+.gallery__container {
+  display: flex;
+  justify-content: center;
+  align-content: start;
+  flex-wrap: wrap;
+  width: 55vw;
+  margin: 0 auto;
 }
 
-.go-to-top__button::after {
-  transform: rotate(-45deg);
-  transform-origin: left center;
-  left: 13px;
+.gallery__element {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 13vw;
+  height: 20vh;
+  margin: 35px 20px;
+  background-color: white;
+  font-weight: 700;
+  box-shadow: -15px 15px 31px -9px rgba(153, 153, 153, 0.20),
+              -5px 20px 43px -14px rgba(153, 153, 153, 0.30),
+              -7px 1px 11px -7px rgba(153, 153, 153, 0.30);
+  transition: box-shadow 50ms ease-in,
+              transform 50ms ease-in;
+}
+
+.gallery__element:hover {
+  transform: scale(1.1) rotate(-.5deg);
+  box-shadow: -25px 8px 29px 10px rgba(153, 153, 153, 0.10),
+              2px 22px 25px -12px rgba(153, 153, 153, 0.20),
+              -7px 1px 12px -8px rgba(153, 153, 153, 0.20);
 }
