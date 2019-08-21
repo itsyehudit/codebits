@@ -1,0 +1,129 @@
+.tooltips__section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tooltips__header {
+  margin: 5vh;
+  text-align: center;
+  font-size: 15vh;
+  font-weight: 700;
+  color: #eee;
+}
+
+.tooltips__text {
+  width: 50vw;
+  padding: 2em 3em;
+}
+
+.tooltip {
+  position: relative;
+  font-weight: 700;
+}
+
+.tooltip::before, .tooltip::after {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  background-color: #50233B;
+  transition: transform 100ms ease-in-out;
+}
+
+.tooltip::before {
+  content: attr(title);
+  line-height: 2em;
+  height: 2em;
+  width: 10em;
+  padding: 0.3em;
+  text-align: center;
+  font-size: 0.8em;
+  font-weight: normal;
+  border-radius: 10px;
+  z-index: 2;
+  color: white;
+}
+
+.tooltip::after {
+  content: '';
+  height: 1em;
+  width: 1em;
+  z-index: 1;
+}
+
+.tooltip__top::before {
+  top: -4em;
+  left: 50%;
+  transform: translateX(-50%) translateY(-1em);
+}
+
+.tooltip__top::after {
+  left: 50%;
+  top: -1.7em;
+  transform: translateX(-50%) translateY(-1em) rotate(45deg);
+}
+
+.tooltip__top:hover::before {
+  transform: translateX(-50%) translateY(0em);
+}
+
+.tooltip__top:hover::after {
+  transform: translateX(-50%) translateY(0em) rotate(45deg);
+}
+
+.tooltip:hover::before, .tooltip:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+.tooltip__left::before {
+  transform: translateX(-15em);
+}
+
+.tooltip__left::after {
+  transform: translateX(-8.4em) translateY(0.5em) rotate(45deg);
+}
+
+.tooltip__left:hover::before {
+  transform: translateX(-12em);
+}
+
+.tooltip__left:hover::after {
+  transform: translateX(-5.8em) translateY(0.5em) rotate(45deg);
+}
+
+.tooltip__right::before {
+  transform: translateX(15em);
+}
+
+.tooltip__right::after {
+  transform: translateX(3.6em) translateY(0.5em) rotate(45deg);
+}
+
+.tooltip__right:hover::before {
+  transform: translateX(12em);
+}
+
+.tooltip__right:hover::after {
+  transform: translateX(1.05em) translateY(0.5em) rotate(45deg);
+}
+
+.tooltip__bottom::before {
+  top: 4em;
+  left: 50%;
+  transform: translateX(-50%) translateY(1em);
+}
+
+.tooltip__bottom::after {
+  left: 50%;
+  top: 1.7em;
+  transform: translateX(-50%) translateY(2em) rotate(45deg);
+}
+
+.tooltip__bottom:hover::before {
+    transform: translateX(-50%) translateY(0em);
+}
+
+.tooltip__bottom:hover::after {
+  transform: translateX(-50%) translateY(1em) rotate(45deg);
+}
